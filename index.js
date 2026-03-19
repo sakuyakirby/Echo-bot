@@ -2,8 +2,8 @@ const { Client, GatewayIntentBits, PermissionFlagsBits, SlashCommandBuilder, RES
 const sqlite3 = require('sqlite3');
 const { open } = require('sqlite');
 
-const TOKEN = 'MTQ4NDEzMzQ0NzA3MTk1NzA2Mg.GZ8bHb._BJXPzshBvElgX1AIUHhXNP_BEtwmpw_hn4G8w';
-const CLIENT_ID = '1484133447071957062';
+const TOKEN = 'YOUR_TOKEN';
+const CLIENT_ID = 'YOUR_ID';
 
 const client = new Client({
     intents: [
